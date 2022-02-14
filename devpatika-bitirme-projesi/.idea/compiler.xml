@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="feign-client" />
+        <module name="config-server" />
+        <module name="eureka-server" />
+        <module name="sms-service" />
+        <module name="apply-service" />
+        <module name="score-service" />
+      </profile>
+      <profile name="Annotation profile for gittigidiyor-graduation-project" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="customer-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app" target="1.8" />
+      <module name="apply-service" target="1.8" />
+      <module name="common-service" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="ConfigServer" target="1.8" />
+      <module name="CreditApplicationService" target="1.8" />
+      <module name="CreditApplicationServiceAPI" target="1.8" />
+      <module name="CreditScoreServiceAPI" target="1.8" />
+      <module name="customer-service" target="1.8" />
+      <module name="CustomerServiceAPI" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="feign-client" target="8" />
+      <module name="gittigidiyor-graduation-project" target="8" />
+      <module name="gittigidiyor-spring-bootcamp" target="8" />
+      <module name="score-service" target="1.8" />
+      <module name="sms-service" target="1.8" />
+      <module name="SmsServiceAPI" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigServer" options="-parameters" />
+      <module name="CreditApplicationService" options="-parameters" />
+      <module name="CreditApplicationServiceAPI" options="-parameters" />
+      <module name="CreditScoreServiceAPI" options="-parameters" />
+      <module name="CustomerServiceAPI" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+      <module name="SmsServiceAPI" options="-parameters" />
+      <module name="app" options="-parameters" />
+      <module name="apply-service" options="-parameters" />
+      <module name="common-service" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="customer-service" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="feign-client" options="-parameters" />
+      <module name="score-service" options="-parameters" />
+      <module name="sms-service" options="-parameters" />
+    </option>
+  </component>
+</project>

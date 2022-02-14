@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/graduation?characterEncoding=UTF8
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+  application:
+    name: CustomerServiceAPI
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8500/eureka

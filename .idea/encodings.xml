@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/applyservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/applyservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/configserver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/customerservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/eurekaserver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/feignclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/scoreservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/scoreservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devpatika-bitirme-projesi/smsservice/src/main/java" charset="UTF-8" />
+  </component>
+</project>

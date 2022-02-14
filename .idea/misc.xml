@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/patikadev-bitirme-projesi/pom.xml" />
+        <option value="$PROJECT_DIR$/devpatika-bitirme-projesi/customerservice/pom.xml" />
+        <option value="$PROJECT_DIR$/devpatika-bitirme-projesi/pom.xml" />
+        <option value="$PROJECT_DIR$/devpatika-bitirme-projesi/customerservice/scoreservice/pom.xml" />
+        <option value="$PROJECT_DIR$/devpatika-bitirme-projesi/scoreservice/pom.xml" />
+        <option value="$PROJECT_DIR$/devpatika-bitirme-projesi/smsservice/pom.xml" />
+        <option value="$PROJECT_DIR$/devpatika-bitirme-projesi/feignclient/pom.xml" />
+        <option value="$PROJECT_DIR$/devpatika-bitirme-projesi/applyservice/pom.xml" />
+        <option value="$PROJECT_DIR$/devpatika-bitirme-projesi/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/devpatika-bitirme-projesi/eurekaserver/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

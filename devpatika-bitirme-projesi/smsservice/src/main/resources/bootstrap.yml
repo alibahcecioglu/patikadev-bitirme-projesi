@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: smsservice
+  cloud:
+    config:
+      profile: native
+      uri: http://localhost:8888

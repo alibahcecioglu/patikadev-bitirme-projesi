@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/configrepo
+  profiles:
+    active: native
+  application:
+    name: ConfigServer
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8500/eureka
